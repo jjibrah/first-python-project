@@ -47,8 +47,15 @@ class Teacher(Student):
         self.password = password
         self.gender = gender
         self.salary = salary
+
     def suspend_student(self):
         print("Yeah I can suspend a student")
+
+
 class Principal(Teacher):
     def suspend_teacher(self):
         print("yeah I can suspend a teacher")
+
+# write a python logic to implement a simple calculation
+# capable of computing any two numbers entered by the user in the input
+# make sure the logic can perform all the four mathematical operation

@@ -1,4 +1,4 @@
-from main import Fruit, Car, Employee , Student
+from main import Fruit, Car, Employee , Student, Teacher ,Principal
 
 # Start creating fruits out of the fruit class
 
@@ -25,7 +25,31 @@ print(employee1.name)
 
 
 # Start creating students out of the student class
+
 student_one = Student("Josiah","josiah@gmail.com","josia123")
 student_two = Student("James","james@gmail.com","james123")
 
 print(student_one.email)
+
+
+# Start creating teachers out of the teacher class
+teacher_one = Teacher("jiad","jj@gmail.com","jjiad","Male","1.3M")
+
+teacher_one.register()
+teacher_one.login()
+teacher_one.suspend_student()
+
+# Start creating prinicpal out of the principal class
+principal = Principal("jiad","jj@gmail.com","jjiad","Male","5M")
+
+print(principal.email)
+principal.suspend_teacher()
+
+
+
+
+
+
+
+
+
